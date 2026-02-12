@@ -1,6 +1,10 @@
+import Zain from "./zain"
+
 function App() {
 return (
-   <h1>Hello world</h1>
+   <>
+   <Zain/>
+</>
   )
 }
 
