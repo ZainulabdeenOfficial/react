@@ -79,7 +79,7 @@ const CurrencyInfo = UseCurrencyInfo(from)
                             <div className="absolute w-full h-0.5 bg-white/40"></div>
                             <button
                                 type="button"
-                                className="relative border-2 border-white rounded-full bg-gradient-to-r from-blue-500 to-blue-700 text-white px-4 py-2 hover:from-blue-600 hover:to-blue-800 transition-all duration-300 shadow-lg font-semibold"
+                                className="relative border-2 border-white rounded-full bg-linear-to-r from-blue-500 to-blue-700 text-white px-4 py-2 hover:from-blue-600 hover:to-blue-800 transition-all duration-300 shadow-lg font-semibold"
                                 onClick={Swap}
                             >
                                 ⇄ Swap
@@ -97,7 +97,7 @@ const CurrencyInfo = UseCurrencyInfo(from)
                                 
                             />
                         </div>
-                        <button type="submit" className="w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white px-4 py-3 rounded-lg font-bold text-lg hover:from-blue-600 hover:to-blue-800 transition-all duration-300 shadow-lg mt-6">
+                        <button type="submit" className="w-full bg-linear-to-r from-blue-500 to-blue-700 text-white px-4 py-3 rounded-lg font-bold text-lg hover:from-blue-600 hover:to-blue-800 transition-all duration-300 shadow-lg mt-6">
                             Convert {from.toUpperCase()} to {to.toUpperCase()}
                         </button>
                     </form>
