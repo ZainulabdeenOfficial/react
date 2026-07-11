@@ -341,4 +341,6 @@ copies or substantial portions of the Software.
 
 Made with ❤️ by [M Zain Ul Abideen](https://github.com/ZainulabdeenOfficial)
 
+ M Zain Ul Abideen
+
 </div>
