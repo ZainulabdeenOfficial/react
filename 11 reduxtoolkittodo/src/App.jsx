@@ -1,17 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import AddTodo from "./Components/AddTodo";
+import SimpleTodo from "./Components/simpletodo";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <h1>Redux Toolkit Todo</h1>
+      <h1>Redux Toolkit Todo</h1>
+      <AddTodo />
+      <SimpleTodo />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
